@@ -9,15 +9,15 @@ import java.util.Scanner;
 public class App {
     public static void menu() {
             System.out.println("-----MENU-----");
-            System.out.print("read <NameFile>:"+        "\t\tLeer un archivo\n" +
-                    "write <NameFile>:"+                "\t\tEscribir en un bloc de notas\n" +
-                    "create_blank_csv <NameFile>:"+     "\t\tCrear un archivo CSV\n" +
-                    "fill_csv <NameFile>:"+             "\t\t\t\tRellenar un archivo CSV\n" +
-                    "delete <NameFile>:"+               "\t\tEliminar un archivo\n" +
-                    "create <NameFile>:"+               "\t\t\t\t\tCrear una nota vacía\n" +
-                    "cd <path>:"+                       "\t\t\t\t(ruta)\n" +
-                    "ls"+                               "\t\t\t\tMuestra los directorios y archivos en el propio directorio actual\n" +
-                    "exit:"+                            "\t\t\t\t\tSalir\n");
+            System.out.print("read <NameFile>:"+        "\t\t\t\t\tOpen a readeable file\n" +
+                    "write <NameFile>:"+                "\t\t\t\t\tWrite a note\n" +
+                    "create_blank_csv <NameFile>:"+     "\t\tCreates a blank CSV file\n" +
+                    "delete <NameFile>:"+               "\t\t\t\t\tDeletes the indicated file\n" +
+                    "create <NameFile>:"+               "\t\t\t\t\tCreates a File (you can also specify on the NameFile the extension)\n" +
+                    "cd <path>:"+                       "\t\t\t\t\t\t\tAllows to change between directories\n" +
+                    "ls:"+                              "\t\t\t\t\t\t\t\t\tShows all files and directories on the path you are located\n" +
+                    "mkdir <nameDir>:"+                 "\t\t\t\t\tCreates a Folder / directory\n"+
+                    "exit:"+                            "\t\t\t\t\t\t\t\tExits\n");
     }
 
     public static void main(String[] args) {
